@@ -39,8 +39,8 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="font-bold">Email</span>{" "}
-                  <Link href={"mailto:info@cxcourseschool.com"}>
-                    info@cxcourseschool.com
+                  <Link href={"mailto:rehan@zendeskwhizz.us"}>
+                    rehan@zendeskwhizz.us
                   </Link>
                 </div>
               </div>
