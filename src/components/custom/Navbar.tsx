@@ -53,8 +53,7 @@ const Navbar: React.FC = () => {
               onClick={scrollToTop}
             >
               <span className="text-[var(--text-primary-color)]">
-                cx <span className="text-black">{" | "}</span>{" "}
-                <span className="text-black"> services</span>
+                \<span className="text-black"> Zendeskwhizz</span>
               </span>
             </Link>
           </div>

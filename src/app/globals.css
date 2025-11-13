@@ -6,18 +6,18 @@
 
 :root {
   /* custom */
-  --text-primary-color: #a2dd00;
+  --text-primary-color: #dd8c00;
   --primary-background: #f9f9f9;
   --secondary-background: #f4fafe;
-  --primary-color: #d1f470;
-  --primary-color-light: #b5d265e2;
-  --primary-color-extralight: #c5db89;
-  --primary-color-hover: #bfdf67;
-  --secondary-color: #d1f470;
+  --primary-color: #f4c870;
+  --primary-color-light: #d2aa65e2;
+  --primary-color-extralight: #dbc489;
+  --primary-color-hover: #dfc167;
+  --secondary-color: #f4c470;
   --dark-bg: #1a0d3f;
 
-  --secondary-color-dark: #628a1b;
-  --title-gray: #b5d31d;
+  --secondary-color-dark: #8a6e1b;
+  --title-gray: #d3ae1d;
 }
 
 html {

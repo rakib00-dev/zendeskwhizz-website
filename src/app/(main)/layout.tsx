@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Welcome to Cx school Services",
+  title: "Welcome to Zendeskwhizz",
   icons: {
     icon: "/favicon.ico",
   },

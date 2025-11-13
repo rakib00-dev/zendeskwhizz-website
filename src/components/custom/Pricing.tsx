@@ -87,7 +87,7 @@ const PlatformPricingCard = (pkg: PlatformPackage) => {
         {/* Icon and Tagline */}
         <IconComponent
           className={`w-8 h-8 mb-4 ${
-            pkg.highlight ? "text-[var(--primary-color)]" : "text-green-600"
+            pkg.highlight ? "text-[var(--primary-color)]" : "text-orange-600"
           }`}
         />
         <p
@@ -105,7 +105,7 @@ const PlatformPricingCard = (pkg: PlatformPackage) => {
           {pkg.name}
         </h3>
         <p className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 border-b pb-6">
-          <span className="text-lime-600">$</span>
+          <span className="text-orange-600">$</span>
           {pkg.price.toLocaleString()}
         </p>
 
@@ -117,7 +117,7 @@ const PlatformPricingCard = (pkg: PlatformPackage) => {
           {pkg.features.map((feature, index) => (
             <li key={index} className="flex items-start">
               <CheckCircle
-                className="flex-shrink-0 w-5 h-5 text-green-500 mt-1"
+                className="flex-shrink-0 w-5 h-5 text-orange-500 mt-1"
                 aria-hidden="true"
               />
               <p className="ml-3 text-base text-gray-700">{feature}</p>
