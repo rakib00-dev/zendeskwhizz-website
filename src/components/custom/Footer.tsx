@@ -119,7 +119,8 @@ const Footer = () => {
           </div>
         </footer>
         <div className="grid place-items-center w-full py-10 text-gray-400 bg-[var(--dark-bg)]">
-          Copyright © {new Date().getFullYear()} Cxschool | Powered by Cxschool
+          Copyright © {new Date().getFullYear()} Zendeskwhizz | Powered by
+          Zendeskwhizz
         </div>
       </div>
     </div>
