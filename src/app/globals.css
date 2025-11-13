@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* custom */
+  --text-primary-color: #a2dd00;
+  --primary-background: #f9f9f9;
+  --secondary-background: #f4fafe;
+  --primary-color: #d1f470;
+  --primary-color-light: #b5d265e2;
+  --primary-color-extralight: #c5db89;
+  --primary-color-hover: #bfdf67;
+  --secondary-color: #d1f470;
+  --dark-bg: #1a0d3f;
+
+  --secondary-color-dark: #628a1b;
+  --title-gray: #b5d31d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary-background);
+  font-family: "Poppins", sans-serif;
+}
+
+.baseContainer {
+  @apply w-full max-w-7xl mx-auto px-6 md:px-12 py-10 md:py-16;
+}
+
+.sansTitle,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+}
